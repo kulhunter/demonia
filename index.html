@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lademonia.nails</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #000; color: #fff; padding: 2rem; text-align: center; }
+    section { padding: 2rem; }
+    .title { font-size: 2rem; margin-bottom: 1rem; }
+    .image-round { border-radius: 50%; width: 150px; height: 150px; object-fit: cover; }
+    .center { text-align: center; }
+    .reviews iframe, .booking iframe, .instagram-embed iframe { width: 100%; min-height: 500px; border: none; }
+    footer { background: #f0f0f0; padding: 1rem; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>lademonia.nails</h1>
+    <p>Arte en tus uñas. Reserva tu hora hoy mismo.</p>
+  </header>
+
+  <section class="instagram-embed">
+    <div class="title">Últimos trabajos</div>
+    <!-- Widget gratuito de LightWidget para mostrar el feed -->
+    <iframe src="https://cdn.lightwidget.com/widgets/your-widget-id.html" scrolling="no" allowtransparency="true"></iframe>
+    <!-- Reemplaza "your-widget-id" con el ID que genera LightWidget o similar -->
+  </section>
+
+  <section class="about center">
+    <div class="title">Sobre la artista</div>
+    <img class="image-round" src="https://www.instagram.com/p/DAR94p3O1Jl/media/?size=l" alt="La Demonia">
+    <p>La Demonia es más que una nail artist: es una alquimista del color y la forma. Comenzó decorando uñas en el living de su casa y hoy su arte vive en manos de decenas de clientas fieles. Se especializa en diseños oscuros, creativos y fuera de lo común. Cree que cada uña puede contar una historia y está lista para contar la tuya.</p>
+  </section>
+
+  <section class="reviews">
+    <div class="title">Reseñas</div>
+    <!-- Inserta aquí tu widget de reseñas de Google, ejemplo con Elfsight -->
+    <iframe src="https://widgets.elfsight.com/widget/YOUR-GOOGLE-REVIEWS-WIDGET-ID" loading="lazy"></iframe>
+  </section>
+
+  <section class="booking">
+    <div class="title">Reserva tu hora</div>
+    <!-- Inserta aquí el iframe de Fresha o Calendly configurado -->
+    <iframe src="https://book.fresha.com/providers/YOUR-FRESHA-ID" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>Sígueme en <a href="https://instagram.com/lademonia.nails" target="_blank">Instagram</a> | WhatsApp: +56 9 XXXXXXXX</p>
+  </footer>
+</body>
+</html>
